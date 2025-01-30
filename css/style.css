@@ -1,0 +1,67 @@
+body {
+  background: radial-gradient(white, darkgray);
+}
+figure {
+  display: flex;
+  justify-content: center;
+  background-color: black;
+}
+figure img {
+  width: 20%;
+  margin-left: 10px;
+  border-radius: 100%;
+}
+figcaption h1 {
+  float: left;
+  width: 20%;
+  margin-right: 10px;
+  align-items: center;
+  font-size: 100%;
+  color: white;
+}
+.head {
+  text-align: center;
+}
+p {
+  line-height: 2em;
+}
+button {
+  margin-top:10px;
+  background-color: rgb(136, 207, 231);
+  color: white;
+  border-color: white;
+  border-style: solid;
+  transition: background, color, border 15s;
+  padding:2px 8px;
+  border-radius:2px;
+}
+button:hover {
+  background: white;
+  color: rgb(136, 207, 231);
+  border: rgb(136, 207, 231) solid 1px;
+  cursor: pointer;
+  padding:4px;
+  box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.5)
+}
+button:active{
+  background-color:red;
+  color:black;
+  border:black solid 1px;
+}
+label{
+  display:block;
+  text-transform:uppercase;
+}
+ input{
+  padding:10px;
+  width:60%;
+  text-transform:uppercase;
+}
+footer{
+  position:relative;
+}
+footer p{
+  position:absolute;
+  margin-top:4%;
+}
+
